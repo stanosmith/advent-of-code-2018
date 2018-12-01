@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code-2018",
+  "version": "1.0.0",
+  "description": "https://adventofcode.com/2018",
+  "main": "day-1.js",
+  "dependencies": {
+    "airtable": "^0.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/stanosmith/advent-of-code-2018.git"
+  },
+  "author": "Stan Smith <@stanosmith>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/stanosmith/advent-of-code-2018/issues"
+  },
+  "homepage": "https://gitlab.com/stanosmith/advent-of-code-2018#readme"
+}

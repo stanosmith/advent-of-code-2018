@@ -2,7 +2,6 @@
 
 https://adventofcode.com/2018
 
-- About
-- Calendar
-- Leaderboard
-- Stats
+- [About](https://adventofcode.com/2018/about)
+- [Leaderboard](https://adventofcode.com/2018/leaderboard)
+- [Stats](https://adventofcode.com/2018/stats)
