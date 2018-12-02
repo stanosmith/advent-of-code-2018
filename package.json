@@ -4,7 +4,8 @@
   "description": "https://adventofcode.com/2018",
   "main": "day-1.js",
   "dependencies": {
-    "airtable": "^0.5.8"
+    "airtable": "^0.5.8",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {},
   "scripts": {
