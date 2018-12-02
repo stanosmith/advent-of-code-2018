@@ -18,13 +18,12 @@ function checkFrequency(changes, allResults) {
 
     accumulator = [...accumulator, result];
 
-    accumulator.forEach(result => {
-      const filteredList = accumulator.filter(frequency => frequency === result);
-      if (filteredList.length > 1 && typeof firstRepeatedFrequency === 'undefined') {
-        console.log(`We've got a duplicate!`);
-        firstRepeatedFrequency = result;
-      }
-    });
+    const filteredList = accumulator.filter(frequency => frequency === result);
+
+    if (filteredList.length > 1 && typeof firstRepeatedFrequency === 'undefined') {
+      console.log(`We've got a duplicate!`);
+      firstRepeatedFrequency = result;
+    }
 
     return accumulator;
   }, allResults)
