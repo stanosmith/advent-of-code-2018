@@ -5,7 +5,8 @@
   "main": "day-1.js",
   "dependencies": {
     "airtable": "^0.5.8",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "string-similarity": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
