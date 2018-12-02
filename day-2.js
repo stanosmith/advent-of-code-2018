@@ -6,7 +6,7 @@ function solvePart1(ids) {
   let numIdsWithTwo = 0;
   let numIdsWithThree = 0;
 
-  const letterCounts = boxIds.reduce((accumulator, value) => {
+  const letterCounts = ids.reduce((accumulator, value) => {
     const letters = value.split('');
     const counted = _.countBy(letters);
     const hasTwos = Object.values(counted).find(val => val === 2);
